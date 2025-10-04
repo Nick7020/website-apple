@@ -1,0 +1,153 @@
+@font-face {
+    font-family: f3;
+    src: url(sf-pro-text_regular.woff2);
+}
+@font-face {
+    font-family: f2;
+    src: url(sf-pro-text_bold.woff2);
+}
+@font-face {
+    font-family: f1;
+    src: url(sf-pro-icons_regular.woff2);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+}
+#nav{
+    height: 20px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    color: white;
+    font-weight: 100px;
+    font-family: f2;
+}
+.cent{
+    margin-top: 35px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/iphone-17-pro/b/images/overview/welcome/hero_endframe__xdzisdq1ppem_medium_2x.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.cent button{
+    position: absolute;
+    padding: 13px 25px;
+    border-radius: 50px;
+    background-color: royalblue;
+    left: 48%;
+    top: 88vh;
+    border: none;
+}
+.cent h3{
+    padding-top: 5px;
+    position:absolute;
+    color: white;
+    left:37.5%;
+    top:95vh ;
+
+}
+.outer{
+    padding:16vh;
+    height: 140vh;
+    width: 100%;
+    background-color:#1D1D1F;
+}
+.second{
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+}
+.second h1{
+    color: white;
+    font-family: f2;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.second h3{
+    font-family: f2;
+    padding-top: 10px;
+    color:royalblue ;
+    font-weight: 10px;
+}
+.inner{
+    margin-left: 28px;
+    margin-top: 59px;
+    height: 95vh;
+    width: 165vh;
+    background-image: url(https://www.apple.com/in/iphone-17-pro/images/overview/highlights/highlights_design_endframe__flnga0hibmeu_medium_2x.jpg);
+    background-size: cover; 
+    background-position: center;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+.inner h1{
+    font-family: f2;
+    font-size: 28px;
+    color: white;
+    padding-top: 8vh;
+    text-align: center;
+}
+.third{
+    padding:16vh;
+    height: 140vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.third h5{
+    color: orange;
+    font-size: 20px;
+    font-family: f2;
+}
+.third h1{
+    color: white;
+    font-size: 70px;
+    font-family: f3;
+}
+.third p{
+    padding: 20px;
+    padding-bottom: 50px;
+    color:rgb(96, 95, 95);
+    font-family: f3;
+    font-size: 18px;
+    font-weight: 800;   
+}
+.third .im{
+    height: 40vh;
+    width: 165vh;
+    background-image: url(https://www.apple.com/v/iphone-17-pro/b/images/overview/design/design_endframe__ckynsj4a5lua_medium_2x.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+.third button{
+    padding:  12px 20px;
+    background-color: #1E1E20;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.third i{
+    background-color: #0071E3;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
